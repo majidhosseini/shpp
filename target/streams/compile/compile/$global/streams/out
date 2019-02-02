@@ -1,0 +1,25 @@
+[0m[[0m[31merror[0m] [0m[0m/home/m-hoseini/workspace/me/shpp/src/main/scala/OrderBook.scala:6:33: not found: type LimitOrder[0m
+[0m[[0m[31merror[0m] [0m[0m    case class AddLimitOrder(o: LimitOrder) extends Command[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/m-hoseini/workspace/me/shpp/src/main/scala/OrderBook.scala:7:32: not found: type OrderId[0m
+[0m[[0m[31merror[0m] [0m[0m    case class CancelOrder(id: OrderId) extends Command[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/m-hoseini/workspace/me/shpp/src/main/scala/OrderBook.scala:12:35: not found: type Execution[0m
+[0m[[0m[31merror[0m] [0m[0m    case class OrderExecuted(buy: Execution, sell: Execution) extends Event[0m
+[0m[[0m[31merror[0m] [0m[0m                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/m-hoseini/workspace/me/shpp/src/main/scala/OrderBook.scala:12:52: not found: type Execution[0m
+[0m[[0m[31merror[0m] [0m[0m    case class OrderExecuted(buy: Execution, sell: Execution) extends Event[0m
+[0m[[0m[31merror[0m] [0m[0m                                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/m-hoseini/workspace/me/shpp/src/main/scala/ThroughputBenchmark.scala:5:25: not found: value DataCodec[0m
+[0m[[0m[31merror[0m] [0m[0m    val commandSample = DataCodec.read(new File(args(0)))[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/m-hoseini/workspace/me/shpp/src/main/scala/ThroughputBenchmark.scala:5:44: not found: type File[0m
+[0m[[0m[31merror[0m] [0m[0m    val commandSample = DataCodec.read(new File(args(0)))[0m
+[0m[[0m[31merror[0m] [0m[0m                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/m-hoseini/workspace/me/shpp/src/main/scala/ThroughputBenchmark.scala:8:5: not found: value jvmWarmUp[0m
+[0m[[0m[31merror[0m] [0m[0m    jvmWarmUp(commandSample)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/m-hoseini/workspace/me/shpp/src/main/scala/ThroughputBenchmark.scala:10:20: not found: value generateCount[0m
+[0m[[0m[31merror[0m] [0m[0m    val commands = generateCount(commandSample, commandCount)[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m8 errors found[0m
